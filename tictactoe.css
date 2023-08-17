@@ -1,0 +1,104 @@
+.logo{
+    box-align:left;
+    width:12%;
+    border-radius:60px;
+    border-style: solid;
+    display:inline-block;
+}
+.class{
+    display:inline-block;
+    color:rgb(20, 20, 174);
+}
+.h1{
+    display:block;
+    margin: top 5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-family: 'Times New Roman', Times, serif;
+}
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Itim', cursive;
+}
+
+.background {
+    background-color:rgb(17, 5, 5);
+    height: 100vh;
+    padding-top: 1px;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    margin-top: -15%;
+    
+
+}
+
+.display {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-template-rows: 30% 30% 30%;
+    max-width: 300px;
+
+}
+
+.tile {
+    border: 1px solid white;
+    min-width: 100px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.playerX {
+    color: #09C372;
+}
+
+.playerO {
+    color: #498AFB;
+    
+}
+
+.controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.controls button {
+    color: white;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    font-size: 20px;
+    margin-left: 1em;
+    cursor: pointer;
+}
+
+.restart {
+    background-color: #498AFB;
+    display:block;
+}
+
+#reset {
+    background-color: #FF3860;
+    display:block;
+}
